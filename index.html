@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIAP KIDS - Loja de Brinquedos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho com Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-fiap">
+        <a class="navbar-brand" href="#">FIAP KIDS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#">Inicio</a>
+                <a class="nav-item nav-link" href="#">Produtos</a>
+                <a class="nav-item nav-link" href="#">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="centralizarCarrosel">
+        <div id="carouselExampleCaptions" class="carousel slide w-75" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/imagens/computadorXUXA.png" class="d-block w-75" alt="Primeiro Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primeiro Slide</h5>
+                        <p>Algum texto representativo para o primeiro slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagens/carrinho.png" class="d-block w-75" alt="Segundo Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo Slide</h5>
+                        <p>Algum texto representativo para o segundo slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagens/helicoptero.png" class="d-block w-75" alt="Terceiro Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Terceiro Slide</h5>
+                        <p>Algum texto representativo para o terceiro slide.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Conteúdo principal -->
+    <div class="container mt-4">
+        <!-- Aqui você pode adicionar o conteúdo da sua loja, como os cards dos produtos -->
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer-fiap">
+        <div class="container text-center">
+            <p>FIAP KIDS &copy; 2023</p>
+            <!-- Adicione links ou informações adicionais do rodapé aqui -->
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

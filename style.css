@@ -1,0 +1,24 @@
+body {
+    background: url('https://www.fiap.com.br/wp-content/themes/fiap2016/images/school/home/background.jpg') no-repeat center center;
+    background-size: cover;
+}
+.centralizarCarrosel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizarCarrosel .carousel-inner img {
+    margin: auto;
+}
+
+.navbar-fiap {
+    background-color: #1f3f5b;
+}
+
+
+.footer-fiap {
+    background-color: #262626;
+    color: white;
+    padding: 20px 0;
+}
